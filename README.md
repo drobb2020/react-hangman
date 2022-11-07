@@ -29,19 +29,19 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">drobb-README-template</h3>
+  <h3 align="center">Hangman</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    An awesome Vite + React + TS project to create a hangman game!
     <br />
-    <a href="https://github.com/drobb2020/drobb-README-template"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/drobb2020/react-hangman"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/drobb2020/drobb-README-template">View Demo</a>
+    <a href="https://github.com/drobb2020/react-hangman">View Demo</a>
     ·
-    <a href="https://github.com/drobb2020/drobb-README-template/issues">Report Bug</a>
+    <a href="https://github.com/drobb2020/react-hangman/issues">Report Bug</a>
     ·
-    <a href="https://github.com/drobb2020/drobb-README-template/issues">Request Feature</a>
+    <a href="https://github.com/drobb2020/react-hangman/issues">Request Feature</a>
   </p>
 </div>
 
@@ -74,96 +74,81 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
-
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
+The simple and fun game you remember from your youth in a web browser. Enjoy!
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-* [Next.js](https://nextjs.org/)
+* [Vite.js](https://vitejs.dev/)
 * [React.js](https://reactjs.org/)
-* [Python](https://python.org)
-* [Django](https://www.djangoproject.com/)
-* [Flask](https://flask.palletsprojects.com/en/2.0.x/)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
+* [typeScript](https://www.typescriptlang.org/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+You must have node installed on your system to run this code. All other dependencies are listed in the package.json file.
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+1. To create the project from scratch run the command:
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+    ```sh
+    npm create vite@latest
+    ```
 
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
+2. Project name is react-hangman
 
-3. Install NPM packages
+3. Choose React for the framework, and TypeScript for the language support.
 
-   ```sh
-   npm install
-   ```
+4. cd into the react-hangman project and run the command:
 
-4. Enter your API in `config.js`
+    ```sh
+    npm install
+    ```
 
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+5. This will get you started with the project.
+
+### Cloning this repository
+
+You can clone this repository and try out the code bu doing the following.
+
+1. Clone this [repo](https://github.com/drobb2020/react-hangman.git).
+
+2. cd into the react-hangman folder and run:
+
+    ```sh
+    npm install
+    ```
+
+3. Run
+
+    ```sh
+    npm run dev
+    ```
+
+4. Have fun!
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+This is the fun and challenging game you remember from your youth (drawing it out on paper).
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- ROADMAP -->
-## Roadmap
 
-* [X] Add Changelog
-* [X] Add back to top links
-* [ ] Add Additional Templates w/ Examples
-* [ ] Add "components" document to easily copy & paste sections of the readme
-* [ ] Multi-language Support
-    * [ ] Chinese
-    * [ ] Spanish
-
-See the [open issues](https://github.com/drobb2020/drobb-README-template/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/drobb2020/react-hangman/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -195,38 +180,36 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Your Name - [@davidrobb2](https://twitter.com/davidrobb2) - drobb2011@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/drobb2020/repo_name)
+Project Link: [https://github.com/drobb2020/react-hangman](https://github.com/drobb2020/react-hangman)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+Thanks to Web Dev Simplified for hosting this [react/typescript](https://www.youtube.com/watch?v=-ONUyenGnWw) tutorial. If you haven't checked out his channel yet, please do so [here](https://www.youtube.com/c/WebDevSimplified).
 
 * [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
+* [Vite](https://vitejs.dev/)
+* [React](https://reactjs.org)
+* [TypeScript](https://www.typescriptlang.org/)
 * [Img Shields](https://shields.io)
 * [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/drobb2020/drobb-README-template.svg?style=for-the-badge
-[contributors-url]: https://github.com/drobb2020/drobb-README-template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/drobb2020/drobb-README-template.svg?style=for-the-badge
-[forks-url]: https://github.com/drobb2020/drobb-README-template/network/members
-[stars-shield]: https://img.shields.io/github/stars/drobb2020/drobb-README-template.svg?style=for-the-badge
-[stars-url]: https://github.com/drobb2020/drobb-README-template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/drobb2020/drobb-README-template.svg?style=for-the-badge
-[issues-url]: https://github.com/drobb2020/drobb-README-template/issues
-[license-shield]: https://img.shields.io/github/license/drobb2020/drobb-README-template.svg?style=for-the-badge
-[license-url]: https://github.com/drobb2020/drobb-README-template/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/drobb2020/react-hangman.svg?style=for-the-badge
+[contributors-url]: https://github.com/drobb2020/react-hangman/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/drobb2020/react-hangman.svg?style=for-the-badge
+[forks-url]: https://github.com/drobb2020/react-hangman/network/members
+[stars-shield]: https://img.shields.io/github/stars/drobb2020/react-hangman.svg?style=for-the-badge
+[stars-url]: https://github.com/drobb2020/react-hangman/stargazers
+[issues-shield]: https://img.shields.io/github/issues/drobb2020/react-hangman.svg?style=for-the-badge
+[issues-url]: https://github.com/drobb2020/react-hangman/issues
+[license-shield]: https://img.shields.io/github/license/drobb2020/react-hangman.svg?style=for-the-badge
+[license-url]: https://github.com/drobb2020/react-hangman/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
+[linkedin-url]: https://linkedin.com/in/david-robb-42436a20/
 [product-screenshot]: images/screenshot.png
